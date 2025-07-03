@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Compass Scope Login</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #2b2322;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+    header {
+      width: 100%;
+      background: white;
+      color: #b3a530;
+      display: flex;
+      align-items: center;
+      padding: 10px 30px;
+      box-sizing: border-box;
+    }
+    header img {
+      height: 40px;
+      margin-right: 15px;
+    }
+    header span {
+      font-weight: bold;
+      font-size: 14px;
+      margin-right: auto;
+    }
+    header h1 {
+      margin: 0 auto;
+      font-size: 20px;
+      letter-spacing: 2px;
+      color: #b3a530;
+    }
+    p {
+      font-style: italic;
+      color: #999;
+      text-align: center;
+      margin-top: 20px;
+    }
+    .login-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
+    }
+    input[type="text"], input[type="password"] {
+      width: 250px;
+      padding: 10px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 5px;
+      background-color: #b3a530;
+      color: #fff;
+      font-size: 14px;
+    }
+    input::placeholder {
+      color: #fff;
+    }
+    button {
+      background-color: #b3a530;
+      color: #000;
+      padding: 10px 25px;
+      margin-top: 10px;
+      border: none;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .or-divider {
+      margin: 15px 0;
+      color: #ccc;
+    }
+    .google-btn {
+      border: 1px solid #b3a530;
+      padding: 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: transparent;
+      border-radius: 5px;
+      width: 130px;
+      height: 50px;
+    }
+    .google-btn img {
+      height: 30px;
+    }
+    footer {
+      position: absolute;
+      bottom: 10px;
+      font-size: 12px;
+    }
+    footer a {
+      color: #ccc;
+      text-decoration: none;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://github.com/Sumit-coder360/project2-repo/blob/main/.vscode/sunrise-logo%201.png?raw=true" alt="Sunrise Logo" />
+    <span>SUNRISE INTELLIGENCE</span>
+    <h1>COMPASS SCOPE</h1>
+  </header>
+
+  <div class="login-container">
+    <p><em>View the world from Compass scope designed by business experts</em></p>
+    <input type="text" placeholder="Username" />
+    <input type="password" placeholder="Password" />
+    <button>LOGIN</button>
+    <div class="or-divider">OR</div>
+    <div class="google-btn">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/1200px-Google_%22G%22_logo.svg.png" alt="Google Sign-In" />
+    </div>
+  </div>
+
+  <footer>
+    <a href="#">Click here to register and get exclusive access</a>
+  </footer>
+
+</body>
+</html>

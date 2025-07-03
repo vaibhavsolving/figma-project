@@ -1,0 +1,127 @@
+/* Global styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background-color: #f5f0e6;
+  color: #1a1a1a;
+}
+
+/* Header */
+.top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  padding: 10px 30px;
+  border-bottom: 5px solid #1a1a1a;
+}
+
+.top-bar img {
+  height: 40px;
+}
+
+.top-bar span {
+  font-weight: bold;
+  color: #b3a530;
+  font-size: 16px;
+}
+
+.icons span {
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+/* Navigation */
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: #1a1a1a;
+  padding: 10px 30px;
+  color: white;
+}
+
+.menu-icon {
+  margin-right: 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+
+.navbar .active {
+  border-bottom: 3px solid #b3a530;
+}
+
+/* Gauges */
+.gauges {
+  text-align: center;
+  margin: 30px auto;
+}
+
+.gauge-combined {
+  width: 80%;
+  max-width: 800px;
+  display: block;
+  margin: 0 auto;
+}
+
+.gauge-caption {
+  font-size: 14px;
+  color: #444;
+  margin-top: 10px;
+}
+
+/* Headline */
+h2 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+/* Reports */
+.reports {
+  padding: 20px 60px;
+  font-size: 15px;
+}
+
+.reports p {
+  margin-bottom: 10px;
+}
+
+/* Hex Grid */
+.hex-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding: 40px 20px;
+}
+
+.hex {
+  width: 100px;
+  height: 55px;
+  background-color: #d49f00;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  clip-path: polygon(50% 0%, 93% 25%, 93% 75%, 50% 100%, 7% 75%, 7% 25%);
+}
+
+.hex.center {
+  background-color: #801515;
+}
